@@ -1,21 +1,22 @@
-.displayOff{
-    display:none !important;
+.displayOff {
+  display: none !important;
 }
 
-.fullOpacity{
-    opacity:1 !important;
+.fullOpacity {
+  opacity: 1 !important;
 }
 
-.rotateRight{
-    transform: rotate(90deg);
-    transition-duration: 200ms; 
+.rotateRight {
+  transform: rotate(90deg);
+  transition-duration: 200ms;
 }
-.rotateLeft{
-    transform: rotate(-90deg);
-    transition-duration: 200ms;
+.rotateLeft {
+  transform: rotate(-90deg);
+  transition-duration: 200ms;
 }
 
-.aboutUsTextChange{
-    color:$black !important;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.9), 0 0 10px rgba(255, 255, 255, 0.9);
+.aboutUsTextChange {
+  color: $black !important;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.9),
+    0 0 10px rgba(255, 255, 255, 0.9);
 }

@@ -93,15 +93,16 @@ observer.observe(career_find);
 //Rotate animation for actionLinks
 actionLink.forEach((e)=>{
     e.addEventListener("mouseover", ()=>{
-        e.firstChild.childNodes[1].firstChild.classList.add("rotateRight");
+        console.log(e.childNodes[1].childNodes[1].childNodes[0]);
+        e.childNodes[1].childNodes[1].childNodes[0].classList.add("rotateRight");
         setTimeout(()=>{
-            e.firstChild.childNodes[1].firstChild.classList.remove("rotateRight");
+            e.childNodes[1].childNodes[1].childNodes[0].classList.remove("rotateRight");
         }, 200)
     })
     e.addEventListener("mouseleave", ()=>{
-        e.firstChild.childNodes[1].firstChild.classList.add("rotateLeft");
+        e.childNodes[1].childNodes[1].childNodes[0].classList.add("rotateLeft");
         setTimeout(()=>{
-            e.firstChild.childNodes[1].firstChild.classList.remove("rotateLeft");
+            e.childNodes[1].childNodes[1].childNodes[0].classList.remove("rotateLeft");
         }, 200)
     })
 })
