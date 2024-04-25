@@ -1,0 +1,24 @@
+@import "./variables";
+@import "./jsClasses";
+@import "./mediaq";
+@import "./components";
+@import "./header";
+@import "./main";
+@import "./animations";
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+
+  body{
+    background-color: white;
+    max-height:300svh;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    max-width: 100;
+  }
